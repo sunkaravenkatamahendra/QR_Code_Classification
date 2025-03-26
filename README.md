@@ -1,6 +1,6 @@
 # QR Code Classification Project
 
-This project detects whether a QR code is Original or Counterfeit using a CNN model.
+This project detects whether a QR code is Original or Counterfeit using a Machine Learning and Deep learning model.
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
