@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Classifier</title>
+</head>
+<body>
+    <h2>Upload a QR Code Image</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    {% if result %}
+        <h3>Prediction: {{ result }}</h3>
+        <img src="{{ url_for('static', filename=image) }}" width="200">
+    {% endif %}
+</body>
+</html>
